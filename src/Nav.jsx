@@ -7,7 +7,13 @@ export default class Nav extends Component {
             <div>
                 <Navbar bg="dark" variant="dark">
                     <Navbar.Brand href="#home">Remember Me</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <a href="#"> Home </a>
+
+                    <Navbar.Collapse className="justify-content-end">
+                        <Navbar.Text>
+                            Signed in as: <a href="#login">Mark Otto</a>
+                        </Navbar.Text>
+                    </Navbar.Collapse>
                 </Navbar>
             </div>
         );
