@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 
 import './App.css';
-
-import { Container } from 'react-bootstrap';
 
 import Nav from './Nav.jsx';
 import Header from './Header.jsx';
@@ -13,12 +12,12 @@ class App extends Component {
     render() {
         return (
             <div>
-                <div className="App">
+                <MDBContainer>
                     <Nav />
                     <Header />
                     <Spacer />
                     <AboutTheAuthor />
-                </div>
+                </MDBContainer>
             </div>
         );
     }
