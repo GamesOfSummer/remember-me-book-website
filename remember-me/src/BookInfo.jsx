@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 
-import { MDBCol, MDBRow, MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
+import {
+    MDBCol,
+    MDBRow,
+    MDBTable,
+    MDBTableBody,
+    MDBTableHead,
+    MDBIcon
+} from 'mdbreact';
 import image from './images/BookCover.PNG';
 
 export default class BookInfo extends Component {
@@ -22,32 +29,72 @@ export default class BookInfo extends Component {
                             </MDBTableHead>
                             <MDBTableBody>
                                 <tr>
-                                    <td>Title</td>
+                                    <td>
+                                        <p>
+                                            <MDBIcon
+                                                icon="bookmark"
+                                                className="cyan-text pr-3"
+                                            />
+                                            Title{' '}
+                                        </p>
+                                    </td>
                                     <td>
                                         Remember Me A Memoir of Children and
                                         Teens Combating Cancer
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td> Author</td>
+                                    <td>
+                                        <p>
+                                            <MDBIcon
+                                                icon="user"
+                                                className="cyan-text pr-3"
+                                            />
+                                            Author{' '}
+                                        </p>
+                                    </td>
                                     <td>Janalee Tomaseski-Heinemann</td>
                                 </tr>
                                 <tr>
-                                    <td>Category</td>
+                                    <td>
+                                        <p>
+                                            <MDBIcon
+                                                icon="list"
+                                                className="cyan-text pr-3"
+                                            />
+                                            Category{' '}
+                                        </p>
+                                    </td>
                                     <td>
                                         Memoir Body, Mind, Spirit Religion
                                         Medical
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Price</td>
                                     <td>
-                                        Soft Cover 978-0960085309 $14.95 eBook
-                                        $9.99
+                                        <p>
+                                            <MDBIcon
+                                                icon="dollar-sign"
+                                                className="cyan-text pr-3"
+                                            />
+                                            Price{' '}
+                                        </p>
+                                    </td>
+                                    <td>
+                                        Soft Cover $14.95 ( 978-0960085309 )
+                                        <br /> eBook $9.99
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Availability</td>
+                                    <td>
+                                        <p>
+                                            <MDBIcon
+                                                icon="external-link-alt"
+                                                className="cyan-text pr-3"
+                                            />
+                                            Availability{' '}
+                                        </p>
+                                    </td>
                                     <td>Amazon.com Kindle BN.com Nook Apple</td>
                                 </tr>
                             </MDBTableBody>
