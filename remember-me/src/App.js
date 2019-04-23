@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
-
-import './App.css';
+import { MDBContainer } from 'mdbreact';
 
 import Nav from './Nav.jsx';
 import Header from './Header.jsx';
@@ -12,15 +10,13 @@ import BookInfo from './BookInfo';
 class App extends Component {
     render() {
         return (
-            <div>
-                <MDBContainer fluid>
-                    <Nav />
-                    <Header />
-                    <Spacer />
-                    <BookInfo />
-                    <AboutTheAuthor />
-                </MDBContainer>
-            </div>
+            <MDBContainer fluid>
+                <Nav />
+                <Header />
+                <Spacer />
+                <BookInfo />
+                <AboutTheAuthor />
+            </MDBContainer>
         );
     }
 }
