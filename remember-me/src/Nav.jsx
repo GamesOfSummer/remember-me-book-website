@@ -13,19 +13,14 @@ export default class Nav extends Component {
                         className="justify-content-end"
                     >
                         <MDBNavItem>
-                            <MDBNavLink active to="#!">
+                            <MDBNavLink className="white-text" active to="#!">
                                 Active
                             </MDBNavLink>
                         </MDBNavItem>
+
                         <MDBNavItem>
-                            <MDBNavLink to="#!">Link</MDBNavLink>
-                        </MDBNavItem>
-                        <MDBNavItem>
-                            <MDBNavLink to="#!">Link</MDBNavLink>
-                        </MDBNavItem>
-                        <MDBNavItem>
-                            <MDBNavLink disabled to="#!">
-                                Disabled
+                            <MDBNavLink className="white-text" active to="#!">
+                                Active
                             </MDBNavLink>
                         </MDBNavItem>
                     </MDBNav>
