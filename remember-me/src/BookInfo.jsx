@@ -8,8 +8,9 @@ export default class BookInfo extends Component {
         return (
             <div>
                 <MDBRow>
-                    <MDBCol size="12" md="8">
-                        <img src={image} />
+                    <MDBCol size="12" md="3" />
+                    <MDBCol size="12" md="4">
+                        <img src={image} width="400" />
                     </MDBCol>
                     <MDBCol size="6" md="4">
                         <MDBTable>
@@ -52,10 +53,6 @@ export default class BookInfo extends Component {
                             </MDBTableBody>
                         </MDBTable>
                     </MDBCol>
-                </MDBRow>
-
-                <MDBRow>
-                    <MDBCol md="6" className="mb-4" />
                 </MDBRow>
             </div>
         );

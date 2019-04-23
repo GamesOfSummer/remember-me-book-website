@@ -12,19 +12,12 @@ import {
 
 export default class Spacer extends Component {
     render() {
-        const styles = {
-            color: 'blue',
-            'background-color': 'coral',
-            'font-weight': 'bold',
-            height: '1000 px'
-        };
-
         return (
             <div>
                 <MDBRow>
                     <MDBCol md="6" className="mb-4">
                         <MDBCard
-                            color="orange"
+                            color="winter-neva-gradient"
                             text="white"
                             className="text-center"
                         >
@@ -42,7 +35,7 @@ export default class Spacer extends Component {
                     </MDBCol>
                     <MDBCol md="6" className="mb-4">
                         <MDBCard
-                            color="indigo"
+                            color="grey"
                             text="white"
                             className="text-center"
                         >

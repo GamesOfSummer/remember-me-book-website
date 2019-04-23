@@ -17,8 +17,8 @@ class App extends Component {
                     <Nav />
                     <Header />
                     <Spacer />
-                    <AboutTheAuthor />
                     <BookInfo />
+                    <AboutTheAuthor />
                 </MDBContainer>
             </div>
         );

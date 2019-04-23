@@ -9,7 +9,7 @@ export default class Header extends Component {
                 <MDBView waves>
                     <img src={image} className="img-fluid" alt="" />
                     <MDBMask className="flex-center">
-                        <div class="mask flex-center waves-effect waves-light rgba-orange-strong">
+                        <div class="mask flex-center waves-effect waves-light rgba-grey-strong">
                             <p class="white-text center">
                                 {' '}
                                 <h1>

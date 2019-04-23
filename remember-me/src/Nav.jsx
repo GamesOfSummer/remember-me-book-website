@@ -9,7 +9,7 @@ export default class Nav extends Component {
             <div>
                 <BrowserRouter>
                     <MDBNav
-                        color="peach-gradient"
+                        color="winter-neva-gradient"
                         className="justify-content-end"
                     >
                         <MDBNavItem>
