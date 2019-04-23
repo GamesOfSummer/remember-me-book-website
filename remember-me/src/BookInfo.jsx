@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 
 import { MDBCol, MDBRow, MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
+import image from './images/BookCover.PNG';
 
 export default class BookInfo extends Component {
     render() {
         return (
             <div>
                 <MDBRow>
-                    <MDBCol md="6" className="mb-4">
+                    <MDBCol size="12" md="8">
+                        <img src={image} />
+                    </MDBCol>
+                    <MDBCol size="6" md="4">
                         <MDBTable>
                             <MDBTableHead>
                                 <tr>
@@ -48,6 +52,10 @@ export default class BookInfo extends Component {
                             </MDBTableBody>
                         </MDBTable>
                     </MDBCol>
+                </MDBRow>
+
+                <MDBRow>
+                    <MDBCol md="6" className="mb-4" />
                 </MDBRow>
             </div>
         );
