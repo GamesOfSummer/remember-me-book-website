@@ -6,8 +6,6 @@ export default class AboutTheAuthor extends Component {
     render() {
         return (
             <div>
-                <h5 />
-
                 <MDBMedia>
                     <MDBMedia left className="mr-3" href="#">
                         <MDBMedia

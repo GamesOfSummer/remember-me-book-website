@@ -9,9 +9,14 @@ import BookInfo from './BookInfo';
 
 class App extends Component {
     render() {
+        var styles = {
+            padding: '0px'
+        };
+
         return (
-            <MDBContainer fluid>
+            <MDBContainer fluid style={styles}>
                 <Nav />
+
                 <Header />
                 <Spacer />
                 <BookInfo />
