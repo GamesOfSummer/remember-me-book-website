@@ -1,14 +1,5 @@
 import React, { Component } from 'react';
-import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
-    MDBBtn,
-    MDBCol,
-    MDBRow,
-    MDBCardHeader
-} from 'mdbreact';
+import { MDBCard, MDBCardBody, MDBCol, MDBRow, MDBAnimation } from 'mdbreact';
 
 export default class Spacer extends Component {
     render() {
@@ -16,22 +7,24 @@ export default class Spacer extends Component {
             <div>
                 <MDBRow>
                     <MDBCol md="6" className="mb-4">
-                        <MDBCard
-                            color="winter-neva-gradient"
-                            text="white"
-                            className="text-center"
-                        >
-                            <MDBCardBody>
-                                Oh my gosh <br />
-                                Your Mom <br />
-                                So gifted <br />
-                                So amazing <br />
-                                What an immense blessing and legacy she is
-                                giving to all those families with her book! I
-                                got 1/2 way thru on the plane.... God blessed
-                                her with such an awesome soul. -Ali
-                            </MDBCardBody>
-                        </MDBCard>
+                        <MDBAnimation reveal type="fadeInRight">
+                            <MDBCard
+                                color="winter-neva-gradient"
+                                text="white"
+                                className="text-center"
+                            >
+                                <MDBCardBody>
+                                    Oh my gosh <br />
+                                    Your Mom <br />
+                                    So gifted <br />
+                                    So amazing <br />
+                                    What an immense blessing and legacy she is
+                                    giving to all those families with her book!
+                                    I got 1/2 way thru on the plane.... God
+                                    blessed her with such an awesome soul. -Ali
+                                </MDBCardBody>
+                            </MDBCard>
+                        </MDBAnimation>
                     </MDBCol>
                     <MDBCol md="6" className="mb-4">
                         <MDBCard

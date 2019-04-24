@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBContainer, MDBRow, MDBCol, MDBMedia } from 'mdbreact';
+import { MDBMedia } from 'mdbreact';
 import image from './images/AuthorHeadshot.jpg';
 
 export default class AboutTheAuthor extends Component {
