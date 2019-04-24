@@ -88,7 +88,7 @@ export default class BookInfo extends Component {
                                 <tr>
                                     <td>
                                         <p>
-                                            <a href="#">
+                                            <a href="https://www.amazon.com/Remember-Me-Memoir-Children-Combating/dp/0960085300/">
                                                 <MDBIcon
                                                     icon="external-link-alt"
                                                     className="cyan-text pr-3"
@@ -96,7 +96,7 @@ export default class BookInfo extends Component {
                                                 <b>Amazon </b>{' '}
                                             </a>
                                             <br />
-                                            <a href="#">
+                                            <a href="https://www.amazon.com/Remember-Me-Memoir-Children-Combating-ebook/dp/B07PFYN1KV/">
                                                 <MDBIcon
                                                     icon="external-link-alt"
                                                     className="cyan-text pr-3"
@@ -104,30 +104,16 @@ export default class BookInfo extends Component {
                                                 <b>Kindle </b>{' '}
                                             </a>
                                             <br />
-                                            <a href="#">
-                                                <MDBIcon
-                                                    icon="external-link-alt"
-                                                    className="cyan-text pr-3"
-                                                />
-                                                <b>BN.com </b>{' '}
-                                            </a>
-                                            <br />
-                                            <a href="#">
+
+                                            <a href="https://www.barnesandnoble.com/w/remember-me-janalee-tomaseski-heinemann-msw/1131142845?ean=2940161321973">
                                                 <MDBIcon
                                                     icon="external-link-alt"
                                                     className="cyan-text pr-3"
                                                 />
                                                 <b>Nook</b>{' '}
                                             </a>
-                                            <br />
 
-                                            <a href="#">
-                                                <MDBIcon
-                                                    icon="external-link-alt"
-                                                    className="cyan-text pr-3"
-                                                />
-                                                <b>Apple </b>{' '}
-                                            </a>
+                                            <br />
                                         </p>
                                     </td>
                                     <td />
