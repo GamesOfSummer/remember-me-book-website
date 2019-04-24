@@ -15,8 +15,8 @@ export default class BookInfo extends Component {
         return (
             <div>
                 <MDBRow>
-                    <MDBCol size="12" md="3" />
-                    <MDBCol size="12" md="4">
+                    <MDBCol size="8" md="2" />
+                    <MDBCol size="8" md="4">
                         <img src={image} width="400" />
                     </MDBCol>
                     <MDBCol size="6" md="4">
@@ -88,19 +88,56 @@ export default class BookInfo extends Component {
                                 <tr>
                                     <td>
                                         <p>
-                                            <MDBIcon
-                                                icon="external-link-alt"
-                                                className="cyan-text pr-3"
-                                            />
-                                            Availability{' '}
+                                            <a href="#">
+                                                <MDBIcon
+                                                    icon="external-link-alt"
+                                                    className="cyan-text pr-3"
+                                                />
+                                                <b>Amazon </b>{' '}
+                                            </a>
+                                            <br />
+                                            <a href="#">
+                                                <MDBIcon
+                                                    icon="external-link-alt"
+                                                    className="cyan-text pr-3"
+                                                />
+                                                <b>Kindle </b>{' '}
+                                            </a>
+                                            <br />
+                                            <a href="#">
+                                                <MDBIcon
+                                                    icon="external-link-alt"
+                                                    className="cyan-text pr-3"
+                                                />
+                                                <b>BN.com </b>{' '}
+                                            </a>
+                                            <br />
+                                            <a href="#">
+                                                <MDBIcon
+                                                    icon="external-link-alt"
+                                                    className="cyan-text pr-3"
+                                                />
+                                                <b>Nook</b>{' '}
+                                            </a>
+                                            <br />
+
+                                            <a href="#">
+                                                <MDBIcon
+                                                    icon="external-link-alt"
+                                                    className="cyan-text pr-3"
+                                                />
+                                                <b>Apple </b>{' '}
+                                            </a>
                                         </p>
                                     </td>
-                                    <td>Amazon.com Kindle BN.com Nook Apple</td>
+                                    <td />
                                 </tr>
                             </MDBTableBody>
                         </MDBTable>
                     </MDBCol>
                 </MDBRow>
+
+                <p />
             </div>
         );
     }

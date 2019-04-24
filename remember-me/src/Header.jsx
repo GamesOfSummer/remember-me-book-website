@@ -17,7 +17,8 @@ import {
     MDBBtn,
     MDBView,
     MDBContainer,
-    MDBFormInline
+    MDBFormInline,
+    MDBAnimation
 } from 'mdbreact';
 
 import './Header.css';
@@ -107,29 +108,32 @@ export default class Header extends Component {
                 <MDBView>
                     <MDBMask className="d-flex justify-content-center align-items-center gradient">
                         <MDBContainer>
-                            <MDBRow>
-                                <div className="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
-                                    <h1 className="h1-responsive font-weight-bold mt-sm-5">
-                                        Remember Me{' '}
-                                    </h1>
-                                    <hr className="hr-light" />
-                                    <h6 className="mb-4">
-                                        Heart-warming, eye opening book promises
-                                        to change the way you see life, death,
-                                        and cancer through the touching true
-                                        stories, words, and sometimes death of
-                                        precious children in treatment
-                                    </h6>
+                            <MDBAnimation type="fadeIn" delay="0.0s">
+                                <MDBRow>
+                                    <div className="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
+                                        <h1 className="h1-responsive font-weight-bold mt-sm-5">
+                                            Remember Me{' '}
+                                        </h1>
+                                        <hr className="hr-light" />
+                                        <h6 className="mb-4">
+                                            Heart-warming, eye opening book
+                                            promises to change the way you see
+                                            life, death, and cancer through the
+                                            touching true stories, words, and
+                                            sometimes death of precious children
+                                            in treatment
+                                        </h6>
 
-                                    <MDBBtn gradient="winter-neva">
-                                        Buy on Amazon
-                                    </MDBBtn>
-                                    <MDBBtn gradient="winter-neva">
-                                        Buy on Barnes ahd Noble
-                                    </MDBBtn>
-                                </div>
-                                <MDBCol md="6" xl="5" className="mt-xl-5" />
-                            </MDBRow>
+                                        <MDBBtn gradient="winter-neva">
+                                            Buy on Amazon
+                                        </MDBBtn>
+                                        <MDBBtn gradient="winter-neva">
+                                            Buy on Barnes ahd Noble
+                                        </MDBBtn>
+                                    </div>
+                                    <MDBCol md="6" xl="5" className="mt-xl-5" />
+                                </MDBRow>
+                            </MDBAnimation>
                         </MDBContainer>
                     </MDBMask>
                 </MDBView>

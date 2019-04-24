@@ -15,8 +15,6 @@ class App extends Component {
 
         return (
             <MDBContainer fluid style={styles}>
-                <Nav />
-
                 <Header />
                 <Spacer />
                 <BookInfo />
