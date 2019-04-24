@@ -66,7 +66,7 @@ export default class BookInfo extends Component {
                                         </p>
                                     </td>
                                     <td>
-                                        Memoir Body, Mind, Spirit Religion
+                                        Memoir, Body, Mind, Spirit, Religion,
                                         Medical
                                     </td>
                                 </tr>

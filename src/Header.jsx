@@ -1,23 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import image from './images/headerMain.jpg';
 import {
-    MDBJumbotron,
-    MDBCardTitle,
-    MDBNavbar,
-    MDBNavbarBrand,
-    MDBNavbarNav,
-    MDBNavItem,
-    MDBNavLink,
-    MDBNavbarToggler,
-    MDBCollapse,
     MDBMask,
     MDBRow,
     MDBCol,
     MDBBtn,
     MDBView,
     MDBContainer,
-    MDBFormInline,
     MDBAnimation
 } from 'mdbreact';
 

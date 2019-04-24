@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { MDBContainer } from 'mdbreact';
 
-import Nav from './Nav.jsx';
 import Header from './Header.jsx';
 import Spacer from './Spacer.jsx';
-import AboutTheAuthor from './AboutTheAuthor';
+
 import BookInfo from './BookInfo';
+import AboutTheAuthor from './AboutTheAuthor';
+import Footer from './Footer';
 
 class App extends Component {
     render() {
@@ -19,6 +20,7 @@ class App extends Component {
                 <Spacer />
                 <BookInfo />
                 <AboutTheAuthor />
+                <Footer />
             </MDBContainer>
         );
     }

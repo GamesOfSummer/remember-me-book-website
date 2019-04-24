@@ -3,6 +3,8 @@ import { MDBContainer, MDBCol, MDBRow, MDBMedia, MDBAnimation } from 'mdbreact';
 import image from './images/AuthorHeadshot.jpg';
 import './AboutTheAuthor.css';
 
+import Contact from './Contact';
+
 export default class AboutTheAuthor extends Component {
     render() {
         return (
@@ -61,6 +63,8 @@ export default class AboutTheAuthor extends Component {
                         </MDBAnimation>
                         <MDBCol size="4" />
                     </MDBRow>
+
+                    <Contact />
                 </MDBContainer>
             </div>
         );
