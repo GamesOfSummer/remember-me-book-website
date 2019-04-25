@@ -6,7 +6,8 @@ import {
     MDBTable,
     MDBTableBody,
     MDBTableHead,
-    MDBIcon
+    MDBIcon,
+    MDBMedia
 } from 'mdbreact';
 import image from './images/BookCover.PNG';
 
@@ -15,11 +16,10 @@ export default class BookInfo extends Component {
         return (
             <div>
                 <MDBRow>
-                    <MDBCol size="8" md="2" />
-                    <MDBCol size="8" md="4">
-                        <img src={image} width="400" />
+                    <MDBCol size="6">
+                        <img src={image} className="float-right" width="400" />
                     </MDBCol>
-                    <MDBCol size="6" md="4">
+                    <MDBCol size="6">
                         <MDBTable>
                             <MDBTableHead>
                                 <tr>

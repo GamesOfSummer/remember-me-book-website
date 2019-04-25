@@ -8,7 +8,10 @@ export default class Contact extends Component {
             <div>
                 <MDBRow>
                     <MDBCol size="12">
-                        <i class="fas fa-envelope"> JHeinemann@pwsausa.org</i>
+                        <i class="my-4 fas fa-envelope">
+                            {' '}
+                            Contact at <b>JHeinemann@pwsausa.org</b>
+                        </i>
                     </MDBCol>
                 </MDBRow>
             </div>
