@@ -11,7 +11,8 @@ import Footer from './Footer';
 class App extends Component {
     render() {
         var styles = {
-            padding: '0px'
+            padding: '0px',
+            'font-family': 'Open Sans'
         };
 
         return (

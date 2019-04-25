@@ -14,7 +14,7 @@ export default class Spacer extends Component {
                     <MDBCol md="6" className="mb-3">
                         <MDBAnimation reveal type="slideInLeft">
                             <MDBCard
-                                color="winter-neva-gradient"
+                                color="blue-gradient"
                                 text="white"
                                 className="text-center"
                             >
@@ -39,7 +39,7 @@ export default class Spacer extends Component {
                     <MDBCol md="6" className="mb-3">
                         <MDBAnimation reveal type="slideInRight">
                             <MDBCard
-                                color="grey lighten-1"
+                                color="blue-gradient"
                                 text="white"
                                 className="text-center"
                             >
@@ -72,7 +72,7 @@ export default class Spacer extends Component {
                     <MDBCol md="6" className="mb-3">
                         <MDBAnimation reveal type="slideInLeft">
                             <MDBCard
-                                color="grey lighten-1"
+                                color="blue-gradient"
                                 text="white"
                                 className="text-center"
                             >
@@ -101,7 +101,7 @@ export default class Spacer extends Component {
                     <MDBCol md="6" className="mb-3">
                         <MDBAnimation reveal type="slideInRight">
                             <MDBCard
-                                color="winter-neva-gradient"
+                                color="blue-gradient"
                                 text="white"
                                 className="text-center"
                             >
