@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBContainer, MDBCol, MDBRow, MDBMedia, MDBAnimation } from 'mdbreact';
+import { MDBCol, MDBRow, MDBAnimation } from 'mdbreact';
 import image from './images/AuthorHeadshot.jpg';
 import './AboutTheAuthor.css';
 
@@ -19,6 +19,7 @@ export default class AboutTheAuthor extends Component {
                                 className="float-right"
                                 width="100%"
                                 height="auto"
+                                alt=""
                             />
                         </MDBCol>
                         <MDBCol md="3">

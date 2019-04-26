@@ -6,8 +6,7 @@ import {
     MDBTable,
     MDBTableBody,
     MDBTableHead,
-    MDBIcon,
-    MDBMedia
+    MDBIcon
 } from 'mdbreact';
 import image from './images/BookCover.PNG';
 
@@ -23,6 +22,7 @@ export default class BookInfo extends Component {
                             className="float-right"
                             width="100%"
                             height="auto"
+                            alt=""
                         />
                     </MDBCol>
                     <MDBCol md="6">

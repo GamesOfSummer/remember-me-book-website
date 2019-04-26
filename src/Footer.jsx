@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBContainer, MDBCol, MDBRow, MDBMedia, MDBAnimation } from 'mdbreact';
+import { MDBCol, MDBRow } from 'mdbreact';
 
 import './Footer.css';
 

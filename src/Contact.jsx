@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { MDBContainer, MDBCol, MDBRow, MDBMedia, MDBAnimation } from 'mdbreact';
+import { MDBCol, MDBRow } from 'mdbreact';
 
 export default class Contact extends Component {
     render() {
