@@ -40,7 +40,7 @@ export default class Header extends Component {
                                     </MDBBtn>
                                     <MDBBtn gradient="winter-neva">
                                         <a href="https://www.barnesandnoble.com/w/remember-me-janalee-tomaseski-heinemann-msw/1131142845?ean=2940161321973">
-                                            Buy on Barnes ahd Noble
+                                            Buy on Barnes and Noble
                                         </a>
                                     </MDBBtn>
                                 </div>

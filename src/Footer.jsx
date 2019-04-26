@@ -12,7 +12,7 @@ export default class Footer extends Component {
                         <div class="d-flex justify-content-end gradient">
                             <i class="my-2 mx-5 far fa-circle">
                                 {' '}
-                                <i>Adam's Angels LLC</i>
+                                <i>Adam's Angels Publishing LLC</i>
                             </i>
                         </div>
                     </MDBCol>

@@ -8,7 +8,7 @@ export default class Spacer extends Component {
                 <MDBRow>
                     <MDBCol md="12" className="my-3">
                         <p className="text-center">
-                            <h1>Testomonials</h1>
+                            <h1>Testimonials</h1>
                         </p>
                     </MDBCol>
                     <MDBCol md="6" className="mb-3">
