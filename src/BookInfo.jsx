@@ -16,10 +16,16 @@ export default class BookInfo extends Component {
         return (
             <div>
                 <MDBRow>
-                    <MDBCol size="6">
-                        <img src={image} className="float-right" width="400" />
+                    <MDBCol md="3" />
+                    <MDBCol md="3">
+                        <img
+                            src={image}
+                            className="float-right"
+                            width="100%"
+                            height="auto"
+                        />
                     </MDBCol>
-                    <MDBCol size="6">
+                    <MDBCol md="6">
                         <MDBTable>
                             <MDBTableHead>
                                 <tr>
@@ -121,6 +127,7 @@ export default class BookInfo extends Component {
                             </MDBTableBody>
                         </MDBTable>
                     </MDBCol>
+                    <MDBCol md="3" />
                 </MDBRow>
 
                 <p />
