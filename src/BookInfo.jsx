@@ -120,6 +120,16 @@ export default class BookInfo extends Component {
                                             </a>
 
                                             <br />
+
+                                            <a href="https://books.apple.com/us/book/remember-me/id1458746308?mt=11&app=itunes">
+                                                <MDBIcon
+                                                    icon="external-link-alt"
+                                                    className="cyan-text pr-3"
+                                                />
+                                                <b>Apple Books</b>{' '}
+                                            </a>
+
+                                            <br />
                                         </p>
                                     </td>
                                     <td />

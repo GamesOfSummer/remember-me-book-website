@@ -41,6 +41,12 @@ export default class Header extends Component {
                                             Buy on Barnes and Noble
                                         </a>
                                     </MDBBtn>
+
+                                    <MDBBtn gradient="winter-neva">
+                                        <a href="https://books.apple.com/us/book/remember-me/id1458746308?mt=11&app=itunes">
+                                            Buy on Appple Books
+                                        </a>
+                                    </MDBBtn>
                                 </div>
                                 <MDBCol md="6" xl="5" className="mt-xl-5" />
                             </MDBRow>
