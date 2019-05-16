@@ -53,6 +53,18 @@ export default class BookInfo extends Component {
                                     <td>
                                         <p>
                                             <MDBIcon
+                                                icon="address-book"
+                                                className="cyan-text pr-3"
+                                            />
+                                            Publlisher{' '}
+                                        </p>
+                                    </td>
+                                    <td>Adam's Angels Publishing LLC </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <MDBIcon
                                                 icon="user"
                                                 className="cyan-text pr-3"
                                             />
