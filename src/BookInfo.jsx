@@ -56,7 +56,7 @@ export default class BookInfo extends Component {
                                                 icon="address-book"
                                                 className="cyan-text pr-3"
                                             />
-                                            Publlisher{' '}
+                                            Publisher{' '}
                                         </p>
                                     </td>
                                     <td>Adam's Angels Publishing LLC </td>
