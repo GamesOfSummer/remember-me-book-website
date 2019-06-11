@@ -106,6 +106,22 @@ export default class BookInfo extends Component {
                                 <tr>
                                     <td>
                                         <p>
+                                            <MDBIcon
+                                                icon="id-card"
+                                                className="cyan-text pr-3"
+                                            />
+                                            EZCard{' '}
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <a href="https://ezcard.com/9312">
+                                            [Click Here!]
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>
                                             <a href="https://www.amazon.com/Remember-Me-Memoir-Children-Combating/dp/0960085300/">
                                                 <MDBIcon
                                                     icon="external-link-alt"
